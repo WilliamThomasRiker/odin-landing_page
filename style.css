@@ -5,81 +5,85 @@ body {
 }
 
 
-h1 {
-    font-weight: 900;
-    font-size: 24px;
-    color: #f9faf8;
-}
+/* Header section */
+    .header {
+        background-color: #1f2937;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-between;
-}
+    .header-left,
+    .header-right {
+        width: 450px;
+    }
 
-a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #e5e7eb;
-}
+    h1 {
+        font-weight: 900;
+        font-size: 24px;
+        color: #f9faf8;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-between;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #e5e7eb;
+    }
 
 
-.header,
-.hero {
-    background-color: #1f2937;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-}
+/* Hero section */
+    .hero {
+        background-color: #1f2937;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        gap: 40px;
+    }
 
-h2 {
-    font-size: 48px;
-    font-weight: 1000;
-    color: #f9faf8;
-    margin: auto;
-}
+    .hero-left,
+    .hero-right {
+        width: 450px;
+        height: 240px;
+    }
 
-p {
-    font-size: 18px;
-    color: #e5e7eb;
-    margin-top: 0px;
-}
+    .hero-right {
+        background: grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.header-left,
-.header-right {
-    width: 450px;
-}
+    h2 {
+        font-size: 48px;
+        font-weight: 1000;
+        color: #f9faf8;
+        margin: auto;
+    }
 
-.hero-left,
-.hero-right {
-    width: 450px;
-    height: 240px;
-}
+    p {
+        font-size: 18px;
+        color: #e5e7eb;
+        margin-top: 0px;
+    }
 
-button {
-    background-color: #3882f6;
-    padding: 8px 40px;
-    border-radius: 8px;
-    border: 1px solid #3882f6;
-    color: #f9faf8;
-    font-weight: 1000;
-}
+    button {
+        background-color: #3882f6;
+        padding: 8px 40px;
+        border-radius: 8px;
+        border: 1px solid #3882f6;
+        color: #f9faf8;
+        font-weight: 1000;
+    }
 
-.hero {
-    height: 400px;
-    gap: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.hero-right {
-  background: grey;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+/* Information section */
