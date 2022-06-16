@@ -88,9 +88,7 @@ body {
 
 /* Information section */
     .information {
-        align-items: center;
-        justify-content: center;
-        height: 400px;
+        height: 450px;
     }
 
     .information-title {
@@ -99,6 +97,8 @@ body {
         color: #1f2937;
         display: flex;
         justify-content: center;
+        align-items: center;
+        height: 150px;
     }
 
     .information-boxes {
@@ -128,3 +128,28 @@ body {
 
 
 /* Quote section */
+    .quote {
+        height: 400px;
+        background-color: #e5e7eb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 36px;
+        font-weight: 300;
+        font-style: italic;
+        color: #1f2937;
+        width: 770px;
+        text-align: start;
+        margin-bottom: 0px;
+    }
+
+    h4 {
+        text-align: end;
+        margin-top: 0px;
+    }
+
+
+/* Call section */
