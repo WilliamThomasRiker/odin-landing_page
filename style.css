@@ -76,7 +76,7 @@ body {
         margin-top: 0px;
     }
 
-    button {
+    .blue-border {
         background-color: #3882f6;
         padding: 8px 40px;
         border-radius: 8px;
@@ -153,3 +153,43 @@ body {
 
 
 /* Call section */
+    .action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+    }
+
+    .blue {
+        background-color: #3882f6;
+        padding: 10px 100px;
+        border-radius: 8px;
+        color: #f9faf8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 800px;
+        height: 125px;
+        gap: 20px;
+    }
+
+    .blue-right {
+        margin-left: auto;
+    }
+
+    h5 {
+        margin: 20px 0px 0px 0px;
+        font-size: 24px;
+    }
+
+    .white-border {
+        background-color: #3882f6;
+        padding: 8px 40px;
+        border-radius: 8px;
+        border: 1px solid #f9faf8;
+        color: #f9faf8;
+        font-weight: 1000;
+        margin-right: auto;
+    }
+
+    /* Footer section */
