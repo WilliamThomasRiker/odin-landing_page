@@ -53,7 +53,6 @@ body {
     .hero-left,
     .hero-right {
         width: 450px;
-        height: 240px;
     }
 
     .hero-right {
@@ -61,6 +60,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 240px;
     }
 
     h2 {
@@ -192,4 +192,16 @@ body {
         margin-right: auto;
     }
 
-    /* Footer section */
+
+/* Footer section */
+    .footer {
+        background-color: #1f2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+    }
+
+    .p-footer {
+        margin-bottom: 0px;
+    }
